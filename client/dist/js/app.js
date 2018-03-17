@@ -56,13 +56,11 @@
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-	// ReactDOM.render(<h1> hello from react</h1>,getElementById('react-app'));
 	_reactDom2.default.render(_react2.default.createElement(
 	  'h1',
 	  null,
 	  'Hello from React'
 	), document.getElementById('react-app'));
-	// ReactDOM.render(React.createElement('h1',null,"hello"),document.getElementById('react-app'));
 
 /***/ },
 /* 1 */
