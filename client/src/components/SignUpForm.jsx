@@ -44,11 +44,18 @@ const SignUpForm = ({
     </Card>
 );
 
-SignUpForm.PropTypes = {
-    onSubmit: PropTypes.func.isRequired,
-    onChange: PropTypes.func.isRequired,
-    erors: ProtoTypes.object.isRequired,
-    user: PropTypes.object.isRequired
-};
+// SignUpForm.PropTypes = {
+//     onSubmit: PropTypes.func.isRequired,
+//     onChange: PropTypes.func.isRequired,
+//     erors: ProtoTypes.object.isRequired,
+//     user: PropTypes.object.isRequired
+// };
+
+<SignUpForm
+  onSubmit={(e) => console.log('submitted')}
+  onChange={(e) => console.log('changed')}
+  errors={{ email: 'Invalid' }}
+  user={{ email: 'jane@doe.com', name: 'Jane Doe' }}
+/>
 
 export default SignUpForm;

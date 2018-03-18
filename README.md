@@ -10,5 +10,12 @@ this is Slack App using MERN Stack.
 - npm install nodemon
 - npm install bcrypt
 #### display "helo Hello from React"
+
    - npm run bundle
    - npm start  (other terminal)
+
+#### display front end
+
+    - npm install react-tap-event-plugin
+    - npm install react-router
+    - npm install material-ui
