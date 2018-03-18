@@ -19,3 +19,12 @@ this is Slack App using MERN Stack.
     - npm install react-tap-event-plugin
     - npm install react-router
     - npm install material-ui
+    - Please insert code on components/SignUpForm.jsx
+     
+      <SignUpForm
+        onSubmit={(e) => console.log('submitted')}
+        onChange={(e) => console.log('changed')}
+        errors={{ email: 'Invalid' }}
+        user={{ email: 'jane@doe.com', name: 'Jane Doe' }}
+      />
+    
